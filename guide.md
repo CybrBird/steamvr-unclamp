@@ -12,7 +12,7 @@
 
 
 # Introduction
-Those of you using OLED headsets with SteamVR might've noticed that black pixels don't actually turn off (unlike what you normally expect from OLED displays). This is due to a "black clamp" SteamVR uses to prevent "black smear".
+Those of you using OLED headsets with SteamVR might've noticed that black pixels don't actually turn off (unlike what you'd normally expect from OLED displays). This is due to a "black clamp" SteamVR uses to prevent "black smear".
 
 This guide details a few ways to disable the black clamp, and restore some removed debug commands.
 
@@ -70,7 +70,7 @@ Consequently, using a black clamp comes with notable trade-offs. It prevents (or
 
 In some older versions of SteamVR, such as 1.5.6, a button existed in the Debug Commands window labeled **black_clamp_toggle**. This allowed you to enable/disable SteamVR's black clamp at will, so you could decide for yourself whether you wanted it enabled.
 
-In 1.5.7, however, black_clamp_toggle (and many other debug commands) were removed, and (as of SteamVR 2.19.4) were never re-added. The black clamp is forced on, and there's no official way to disable it.
+In 1.5.7, however, black_clamp_toggle (and many other debug commands) were removed, and (as of SteamVR 2.19.5) were never re-added. The black clamp is forced on, and there's no official way to disable it.
 
 This guide will detail a few methods to disable the black clamp, and restore these removed debug commands, in modern versions of SteamVR.
 
