@@ -65,7 +65,7 @@ if defined method2 (
 )
 
 echo creating backup of %filename%...
-copy /v /y "%vr%\%file%" "%vr%\%file%BACKUP.exe"
+copy /v /y "%vr%\%file%" "%vr%\%file%.bak"
 
 rem apply methods
 if defined offset1 (
